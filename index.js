@@ -34,6 +34,6 @@ app.get('/reverse', async (req,res) => {
 
 });
 
-app.listen(PORT, 'localhost', function(){
+app.listen(PORT, function(){
 	console.log('Listening on', PORT);
 });
